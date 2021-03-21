@@ -12,6 +12,9 @@
   background-position: center;
   color:white;
 }
+img {
+  max-width: 100%;
+}
 
 /*.App {
   text-align: center;
