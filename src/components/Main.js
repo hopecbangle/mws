@@ -53,7 +53,7 @@ function App() {
                 
               </div>
               <div className="col-sm">
-              <button onClick={ () => navigate('https://github.com/hopecbangle/MyWebsite.git') }>GitHub Projects</button>
+              <button onClick={ () => navigate('https://github.com/hopecbangle/mws.git') }>GitHub Projects</button>
               </div>
               <div className="row">
                 <div className="col-sm">
