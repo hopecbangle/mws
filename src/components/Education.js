@@ -1,5 +1,5 @@
 import React from 'react';
-//import {Link,navigate} from '@reach/router';
+import { navigate } from '@reach/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Education () {
@@ -33,6 +33,7 @@ function Education () {
             <img src='/images/PhiThetaKappa.jpg' alt="Phi Theta Kappa Honor Society"></img>
           </div>
         </div>
+        <button onClick={ () => navigate('Main') }>Back to Home</button>
       </div>
     </div>
   )};

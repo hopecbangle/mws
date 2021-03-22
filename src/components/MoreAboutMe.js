@@ -1,5 +1,5 @@
 import React from 'react';
-//import {Link,navigate} from '@reach/router';
+import { navigate } from '@reach/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MoreAboutMe () {
@@ -21,6 +21,7 @@ function MoreAboutMe () {
           </div>
         </div>
       </div>
+      <button onClick={ () => navigate('Main') }>Back to Home</button>
     </div>
   )};
 

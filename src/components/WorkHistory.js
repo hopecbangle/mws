@@ -1,28 +1,33 @@
 import React from 'react';
-//import {Link,navigate} from '@reach/router';
+//import { navigate } from '@reach/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function WorkHistory () {
     return (
-    <div  className="App">
+    <div className="App">
       <div className="container">
         <div className="row">
-          <div className="text-center">
+          <div className="col text-center">
             <h1>Please take a moment to look at my career journey</h1>
-          </div>
-        </div> 
+          </div> 
+        </div>
         <div className="row">
-          <div className="text-center">
+          <div className="col text-center">
             <h2>Position: Electrical Assembly Technician to Robotics Systems Engineer</h2>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col text-center">
             <h3>House of Design - Nampa, ID</h3>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col text-center">
             <h4>September 2019 - March 2021</h4>
           </div>
         </div>
         <div className="row">
-          <div className="col-sm">
-
-          </div>
-          <div className="col-sm">
+          <div className="col align-items-left">
             <ul>
               <li>C#-like programming with RAPID code for robots</li>
               <li>B&R PLC Programming</li>
@@ -32,9 +37,6 @@ function WorkHistory () {
               <li>Wiring electrical panels for high and low voltage components</li>
             </ul>
           </div>
-          <div className="col-sm">
-
-            </div>
           </div>
           <div className="row">
             <div className="text-center">
@@ -44,10 +46,10 @@ function WorkHistory () {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm">
+            <div className="col">
 
             </div>
-            <div className="col-sm">
+            <div className="col">
               <ul>
                 <li>Dispatched to hospitals for repair service calls</li>
                 <li>Completed periodic maintenance on CT scanners, mammography machines, and mobile x-ray units</li>
@@ -55,7 +57,7 @@ function WorkHistory () {
                 <li>Ordered new parts to replace damaged ones</li>
               </ul>
             </div>
-            <div className="col-sm">
+            <div className="col">
 
             </div>  
         </div>
@@ -67,10 +69,10 @@ function WorkHistory () {
             </div>
           </div>
           <div className="row">
-            <div className="col-sm">
+            <div className="col">
 
             </div>
-            <div className="col-sm">
+            <div className="col">
               <ul>
                 <li>Worked remotely to maintain local branch website</li>
                 <li>Maintained local servers and provided technical supprot for the office</li>
@@ -79,11 +81,12 @@ function WorkHistory () {
                 <li>Created documentation for daily processes</li>
               </ul>
             </div>
-            <div className="col-sm">
+            <div className="col">
 
             </div>  
         </div>  
       </div>
+       
     </div>
   )};
 

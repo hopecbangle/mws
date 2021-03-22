@@ -1,9 +1,9 @@
 import React from 'react';
-//import {Link,navigate} from '@reach/router';
+import { navigate } from '@reach/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Recommend () {
-    return (
+   return (
     <div  className="App">
       <div className="container">
         <div className="text-center">
@@ -11,7 +11,8 @@ function Recommend () {
         </div>
         <div className="row">
           <div className="col-sm">
-            
+            <h4>Mikel Douglas</h4>
+            <h4>College of Western Idaho Faculty</h4>
           </div>
           <div className="col-sm">
             
@@ -21,6 +22,7 @@ function Recommend () {
           </div>
         </div>
       </div>
+      <button onClick={ () => navigate('Main') }>Back to Home</button>
     </div>
   )};
 

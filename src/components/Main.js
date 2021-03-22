@@ -9,67 +9,43 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-  return (
-      <div className="App">
-        <div className="container">
-          <div className="text-center">
+    return (
+    <div className="App">
+        <div className="container-fluid h-100 text-center">
+            <div className="text-center">
             <h1>Welcome to PoweredByHope</h1>
-          </div>
-          <div className="text-center">
+            </div>
+            <div className="text-center">
             <h2 >Connecting people, one website at a time</h2>
-          </div>
-          <div className="row">
-            <div className="col-sm">
-              <button onClick={ () => navigate('WorkHistory') }>Take a look at my work history</button>
-            
+        </div>
+        <div className="row row-height align-items-center">
+            <div className="col-6">
+                <button onClick={ () => navigate('WorkHistory') }>Take a look at my work history</button>
             </div>
-            <div className="col-sm">
-                Row1, column2
-              
+            <div className="col-6">
+                <button onClick={ () => navigate('Education') }>Education I've Received</button>
             </div>
-            <div className="col-sm">
-            <button onClick={ () => navigate('Education') }>Education I've Received</button>
-              
+        </div>
+        <div className="row row-height justify-content-between align-items-center">
+            <div className="col-5">
+                <button onClick={ () => navigate('MySkills') }>The Skills I've Aquired Over the Years</button>
             </div>
-          </div>
-            <div className="row">
-              <div className="col-sm">
-              <button onClick={ () => navigate('MySkills') }>The Skills I've Aquired Over the Years</button>
-              </div>
-              <div className="col-sm">
-              Row2, column2 
-              </div>
-              <div className="col-sm">
-              <button onClick={ () => navigate('References') }>References</button>  
-              </div>
+            <div className="col-5">
+                <button onClick={ () => navigate('References') }>References</button>  
             </div>
-            <div className="row">
-              <div className="col-sm">
-              <button onClick={ () => navigate('MoreAboutMe') }>More About Me..</button>
-               
-              </div>
-              <div className="col-sm">
-              Row3, column2
-                
-              </div>
-              <div className="col-sm">
-              <button onClick={ () => navigate('https://github.com/hopecbangle/mws.git') }>GitHub Projects</button>
-              </div>
-              <div className="row">
-                <div className="col-sm">
-             Row4, column1    
+        </div>
+            <div className="row row-height justify-content-between align-items-center">
+                <div className="col-4">
+                    <button onClick={ () => navigate('MoreAboutMe') }>More About Me..</button>
                 </div>
-                <div className="col-sm">
-                Row4, column2
-                </div>
-                <div className="col-sm">
-                Row4, column3  
+                <div className="col-4">
+                    <button onClick={ () => navigate('https://github.com/hopecbangle/mws.git') }>GitHub Projects</button>
                 </div>
             </div>  
-          </div>
         </div>
-      </div>
+        
+    </div>
     
-  )};
+)};
 
 export default App;
