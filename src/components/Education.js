@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Education () {
     return (
-    <div className="App">
+    <div id="fixedImg">
+      <button id="homeButton" onClick={ () => navigate('Main') }>Back to Home</button>
       <div className="container">
         <div className="text-center">
           <h1>Degrees, Diplomas, and Certifications, oh my!</h1>
@@ -27,13 +28,13 @@ function Education () {
             <img src='/images/MoorparkCollege.jpg' alt="Local Area Networks"></img>
           </div>
           <div className="col-sm">
-            <img src='/images/OSHA-10.jpg' alt="OSHA-10"></img> 
+            <img src='/images/MCSE.jpg' alt="Microsoft Certification"></img> 
           </div>
           <div className="col-sm">
             <img src='/images/PhiThetaKappa.jpg' alt="Phi Theta Kappa Honor Society"></img>
           </div>
         </div>
-        <button onClick={ () => navigate('Main') }>Back to Home</button>
+        
       </div>
     </div>
   )};

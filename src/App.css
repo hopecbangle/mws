@@ -4,15 +4,33 @@
 }
 
 .App {
+  background: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  background-color: black;
+  min-height: 100%;
+}
+
+#fixedImg {
   background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   position: fixed;
   min-width:100%;
   min-height: 100%;
   background-size: cover;
   background-position: center;
-  color:white;
-  overflow-y: auto;
+
 }
+/* .WorkHistory {
+  background-image: url("https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-width:100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  color:white;
+} */
 img {
   max-width: 100%;
 }
@@ -24,14 +42,33 @@ button {
   border-radius: 10px;
   font-size: large;
 }
+#homeButton {
+  width: 150px;
+  height: 40px;
+  background: none;
+  color: white;
+  border-radius: 10px;
+  font-size: larger;
+}
 .row-height {
-  padding: 15px;
+  padding: 30px;
 }
 #scroll {
-  overflow-y: auto;
+  overflow-y:scroll;
   overflow-y: visible;
 }
 
+.myFooter {
+  /* width: 100%; 
+  min-height: 100vh;
+  position: absolute;*/
+  position: static;
+  align-content: center;
+  margin-left: 80px;
+  margin-top: 350px;
+  vertical-align: bottom; 
+  
+}
 /*.App {
   text-align: center;
 }

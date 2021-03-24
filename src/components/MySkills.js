@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MySkills () {
     return (
-    <div  className="App">
+    <div id="fixedImg">
+      <button id="homeButton" onClick={ () => navigate('Main') }>Back to Home</button>
       <div className="container">
         <div className="text-center">
           <h1>Here is a List of My Skills</h1>
@@ -33,7 +34,7 @@ function MySkills () {
           </div>
         </div>  
       </div>
-      <button onClick={ () => navigate('Main') }>Back to Home</button>
+      
     </div>
   )};
 

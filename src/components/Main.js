@@ -1,16 +1,11 @@
 import React from 'react';
-//import WorkHistory from 'WorkHistory';
-//import MySkills from './components/MySkills';
-//import MoreAboutMe from './components/MoreAboutMe';
-//import Education from './components/Education';
-//import References from './components/Recommend';
 import { navigate } from '@reach/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
     return (
-    <div className="App">
+    <div id="fixedImg">
         <div className="container-fluid h-100 text-center">
             <div className="text-center">
             <h1>Welcome to PoweredByHope</h1>
@@ -41,7 +36,8 @@ function App() {
                 <div className="col-4">
                     <button onClick={ () => navigate('https://github.com/hopecbangle/mws.git') }>GitHub Projects</button>
                 </div>
-            </div>  
+            </div>
+            
         </div>
         
     </div>

@@ -8,6 +8,7 @@ import References from './components/Recommend';
 import { Router } from '@reach/router';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import Footer from './components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Education path='/Education' />
           <References path='/References' />
         </Router>
+        
       </div>
     
   )};
