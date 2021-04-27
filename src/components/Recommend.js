@@ -21,20 +21,11 @@ function Recommend () {
         </div>
         <div className="row">
           <div className="col-6 align-items-left">
-            
-          </div>
+        </div>
           <div className="col-6 align-items-right"> 
           </div>
         </div>
-          
-            
-          
-          
-            
-          
-        
       </div>
-      
     </div>
   )};
 

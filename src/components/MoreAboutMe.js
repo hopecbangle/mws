@@ -25,8 +25,7 @@ function MoreAboutMe () {
           <h4>Hope Collins Bangle <span>| </span>Email: HopeCBangle@gmail.com <span>| </span>Cell: (555) 123-1234</h4>
         </div>  
       </div>
-      
     </div>
   )};
-
+  
   export default MoreAboutMe;

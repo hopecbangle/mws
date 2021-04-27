@@ -8,10 +8,11 @@ function App() {
     <div id="fixedImg">
         <div className="container-fluid h-100 text-center">
             <div className="text-center">
-            <h1>Welcome to PoweredByHope</h1>
+                <h1>Welcome to PoweredByHope</h1>
             </div>
             <div className="text-center">
-            <h2 >Connecting people, one website at a time</h2>
+                <h2>Connecting people, one website at a time</h2>
+            </div>
         </div>
         <div className="row row-height align-items-center">
             <div className="col-6">
@@ -29,19 +30,15 @@ function App() {
                 <button onClick={ () => navigate('References') }>References</button>  
             </div>
         </div>
-            <div className="row row-height justify-content-between align-items-center">
-                <div className="col-4">
-                    <button onClick={ () => navigate('MoreAboutMe') }>More About Me..</button>
-                </div>
-                <div className="col-4">
-                    <button onClick={ () => navigate('https://github.com/hopecbangle/mws.git') }>GitHub Projects</button>
-                </div>
+        <div className="row row-height justify-content-between align-items-center">
+            <div className="col-4">
+                <button onClick={ () => navigate('MoreAboutMe') }>More About Me..</button>
             </div>
-            
+            <div className="col-4">
+                <button onClick={ () => navigate('https://github.com/hopecbangle/mws.git') }>GitHub Projects</button>
+            </div>
         </div>
-        
-    </div>
-    
+    </div>    
 )};
 
 export default App;

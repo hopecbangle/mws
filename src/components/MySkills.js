@@ -34,7 +34,6 @@ function MySkills () {
           </div>
         </div>  
       </div>
-      
     </div>
   )};
 

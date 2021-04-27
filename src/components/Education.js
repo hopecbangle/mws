@@ -12,13 +12,13 @@ function Education () {
         </div>
         <div className="row">
           <div className="col-sm">
-           <img src='/images/AAS.jpg' alt="AAS Degree"></img>
+            <img src='/images/AAS.jpg' alt="AAS Degree"></img>
           </div>
           <div className="col-sm">
-          <img src='/images/DigitalArts.jpg' alt="Digital Arts Diploma"></img> 
+            <img src='/images/DigitalArts.jpg' alt="Digital Arts Diploma"></img> 
           </div>
           <div className="col-sm">
-          <img src='/images/CET.jpg' alt="Certified Electronics Technician"></img>  
+            <img src='/images/CET.jpg' alt="Certified Electronics Technician"></img>  
           </div>
         </div>
         <br></br>
@@ -34,7 +34,6 @@ function Education () {
             <img src='/images/PhiThetaKappa.jpg' alt="Phi Theta Kappa Honor Society"></img>
           </div>
         </div>
-        
       </div>
     </div>
   )};

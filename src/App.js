@@ -22,9 +22,7 @@ function App() {
           <Education path='/Education' />
           <References path='/References' />
         </Router>
-        
       </div>
-    
-  )};
+)};
 
 export default App;
